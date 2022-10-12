@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 400px;
+            width: 350px;
+        }
+        .box img{
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+        .over{
+            opacity: .8;
+            visibility: hidden;
+            top: 0%;
+            position: absolute;
+            height: 450px;
+            width: 350px;
+            font-size: 24px;
+            color: black;
+            transition: .1s ease-in-out;
+            background-color: #008CBA;
+            text-align: center;
+            line-height: 400px;
+        }
+        .box:hover .over{
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="image">
+            <img src="https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+        <div class="over">
+            Beautiful Scene
+        </div>
+    </div>
+</body>
+</html>

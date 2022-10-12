@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            width: 220px;
+            padding: 10px;
+            margin: 10px;
+            box-sizing: border-box;
+            border: 2px solid red;
+            border-radius: 10px;
+            border-bottom: 2px solid blue;
+            background-color:  white;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTif5jxWxQukIW2T3uSOEh-kx8zAkTplO6vwg&usqp=CAU");
+            background-position: 10px;
+            background-size: 20px;
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            font-size: 22px;
+        }
+        input:focus{
+            background-color: lightgray;
+        }
+
+        .a input{
+            font-size: 20px;
+            width: 130px;
+            transition: width 0.4s ease-in-out;
+
+        }
+        .a input:focus{
+            width: 100%;
+        }
+
+        textarea{
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 80%;
+            height: 150px;
+            resize: none;
+        }
+
+        .a select{
+            width: 1020px;
+            background-color: yellowgreen;
+            padding: 16px 20px;
+            font-size: 22px;
+        }
+        .b input{
+            cursor: zoom-out;
+                  width: 100%;
+                  background-image: none;
+                  background-color: red;
+                  border: none;
+                  color: white;
+        }
+
+        .c input{
+            cursor: pointer;
+                padding: 10px;
+                 font-size: 16px;
+                  width: 100px;
+                  background-image: none;
+                  background-color: green;
+                  border: none;
+                  border-radius: 0px;
+                  color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>NAME</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Company</td>    
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Position</td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+
+    
+
+   
+
+  
+    <textarea name="content" id="" cols="30" rows="10" placeholder="Write your content here">HEY GUYS IM VIPIN PRAJAPAT</textarea>
+    
+
+
+    <div class="a">
+        <table>
+            <tr>
+                <td>NAME</td>
+                <td><input type="text" placeholder="Search"></td>
+            </tr>
+            <tr>
+                <td>COMPANY</td>
+                <td><select name="" id="">
+                    <option value="">--select--</option>
+                    <option value="">META</option>
+                    <option value="">APPLE</option>
+                    <option value="">AMAZON</option>
+                    <option value="">NETFLIX</option>
+                    <option value="">GOOGLE</option>
+                </select></td>
+            </tr>
+            
+        </table>
+       </div>
+
+       <div class="b">
+        <input type="button" value="SUBMIT">
+    </div>
+
+    <div class="c">
+        <input type="button" value="RESET">
+    </div>
+</body>
+</html>

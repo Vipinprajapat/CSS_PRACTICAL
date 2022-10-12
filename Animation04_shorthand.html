@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 200px;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            animation: para 20s ease-in-out 2s infinite forwards normal;
+            text-align: center;
+            line-height: 180px;
+            font-size: 42px;
+        }
+        @keyframes para{
+            0%{width: 200px;background-color: blue;}
+            25%{width: 450px;background-color: red;}
+            50%{width: 600px;background-color: darkgreen;}
+            75%{width: 850px;background-color: sandybrown;}
+            100%{width: 950px;background-color: purple;height: 600px;font-size: 82px;}
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        hello world!!
+    </div>
+</body>
+</html>

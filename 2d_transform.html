@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 250px;
+            width: 350px;
+            background-color: red;
+            transform: translate(50px,100px);
+        }
+        .a{
+            height: 250px;
+            width: 350px;
+            background-color: yellow;
+            transform: rotate(40deg);
+        }
+        .b{
+            height: 250px;
+            width: 350px;
+            background-color: black;
+            transform: rotate(-20deg);
+            color: white;
+        }
+
+        .c{
+            height: 250px;
+            width: 350px;
+            background-color: green;
+            transform: scale(3,2);
+            color: white;
+        }
+        .d{
+            height: 250px;
+            width: 350px;
+            background-color: gold;
+            transform: scale(.5,.8);
+            color: black;
+        }
+        .e{
+            height: 250px;
+            width: 350px;
+            background-color: blue;
+            transform: scaleX(2,);
+            color: white;
+        }
+        .f{
+            height: 250px;
+            width: 350px;
+            background-color: green;
+            transform: scaleY(.10);
+            color: white;
+        }
+        .g{
+            height: 250px;
+            width: 350px;
+            background-color: yellowgreen;
+            transform: skewX(20deg);
+            color: white;
+        }
+        .h{
+            height: 250px;
+            width: 350px;
+            background-color: black;
+            transform: skewY(10deg);
+            color: white;
+        }
+
+        .matrix{
+            height: 250px;
+            width: 350px;
+            background-color: aquamarine;
+            transform: matrix(1,-0.3,0,1,0,0);
+            
+        }
+        .dice:hover{
+            transform: rotate(40deg);
+        }
+       
+    </style>
+</head>
+<body>
+    <div>
+        THE TRANSFORM PROPERTY
+    </div>
+    <br><br>
+    <div class="a">transform rotate 40deg by clockwise</div>
+    <br><br>
+    <div class="b">transform rotate 20deg by anticlockwise</div>
+    <br><br><br><br><br><br><br><br>
+    <div class="c">Increase by width and height</div>
+    <br><br><br><br><br><br><br><br>
+    <div class="d">decrease by width height </div>
+    <div class="e">scaleX by only width</div>
+    <div class="f">scaleY by only height</div>
+    <div class="g">SkewX</div>
+    <div class="h">skewY</div>
+
+    <div class="matrix">
+        COMBINATION OF SIX PROPERTY 
+        MATRIX
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="dice">2d</div>
+</body>
+</html>
